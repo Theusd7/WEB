@@ -246,3 +246,18 @@ li button:first-of-type {
 li button:first-of-type:hover {
   background-color: #b91c1c;
 }
+li.em-edicao {
+  background-color: #fff3cd;
+  border: 2px solid #e0a800;
+}
+
+.completa {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
